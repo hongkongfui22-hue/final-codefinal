@@ -10,6 +10,7 @@ MAX_RETRIES = 3
 USER_ROLES = ["admin", "editor", "viewer"]
 
 
+
 # Issue 1: Dead code after return
 def get_user_role(user_id):
     if user_id == 1:
